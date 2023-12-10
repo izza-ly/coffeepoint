@@ -1,0 +1,198 @@
+body {
+    font-family: Roboto, Arial;
+    height: auto;
+    margin: 0;
+}
+.header {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    position: fixed;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.50);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.left-section {
+    display: flex;
+    width: 400px;
+    align-items: center;
+}
+
+.menu-icon {
+    width: 32px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 110px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+
+.logo-name {
+    color: rgb(210, 175, 136);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.middle-section {
+    display: flex;
+    flex: 1;
+    
+}
+
+.searchbar {
+    height: 30px;
+    width: 400px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.15);
+    outline: none;
+}
+
+.searchbar::placeholder {
+    font-size: 15px;
+    padding-left:5px;
+}
+
+.right-section {
+    display: flex;
+    margin-right: 15px;
+}
+
+.name {
+    padding: 7px 10px 7px 10px;
+    transition: color 0.20s;
+    cursor: pointer;
+    color: rgb(232, 229, 229);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.name:hover {
+    color:  rgb(153, 102, 43);
+}
+
+.background {
+    display: flex;
+}
+
+/**Text inside a photo**/
+.bgphoto {
+    opacity: 0.90;
+    position: relative;
+    width: 2000px;
+    height: 700px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.head-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 300px;
+    left: 350px;
+}
+
+h1 {
+    color:  rgb(247, 200, 129);
+    font-size: 100px;
+    margin: 0;
+}
+
+.image-container{
+    width: 310px;
+    object-fit: cover;
+    margin-top: 120px;
+}
+
+.intro img {
+    width: 310px;
+    margin: 20px;
+}
+
+.description {
+    margin-top: 0;
+    color: rgb(251, 247, 247);
+    font-size: 17px;
+}
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.15);
+    width: 100px;
+}
+
+.menu {
+    margin-bottom: 45px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.sidebar-nav {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4px 12px 7px 12px;
+    margin-bottom: 27px;
+    border-radius: 10px;
+    transition: background-color 0.15s;
+    cursor: pointer;
+}
+
+.sidebar-nav:hover {
+    background-color: rgb(235, 231, 231);
+} 
+
+.sidebar img {
+    width: 27px;
+    margin-bottom: 6px;
+}
+
+.nav-name {
+    font-size: 12px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.description-container {
+    display: flex;
+    margin: 70px 0 0 20px; 
+}
+
+.descriptions {
+    width: 600px;
+}
+
+#about-us-page {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.description-container p {
+    padding: 0 40px 0 50px;
+    text-align: justify;
+    line-height: 27px;
+    font-size: 18px;
+}

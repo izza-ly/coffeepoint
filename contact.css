@@ -1,0 +1,138 @@
+body {
+    font-family: Roboto, Arial;
+    height: auto;
+    padding-top: 100px;
+    padding-left: 100px;
+    background-color: rgb(247, 241, 234);
+}
+.header {
+    display: flex;
+    background-color: rgb(255, 253, 253);
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    position: fixed;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.50);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.left-section {
+    display: flex;
+    width: 400px;
+    align-items: center;
+}
+
+.logo {
+    width: 110px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+
+.logo-name {
+    color: rgb(210, 175, 136);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.middle-section {
+    display: flex;
+    flex: 1;
+    
+}
+
+.right-section {
+    display: flex;
+    margin-right: 15px;
+}
+
+
+.name {
+    padding: 7px 10px 7px 10px;
+    transition: opacity 0.20s;
+    cursor: pointer;
+    color: rgb(153, 102, 43);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.name:hover {
+    opacity: 0.70;
+}
+
+.username-container {
+    margin-left: auto;
+    margin-right: 70px;
+    margin-top: 50px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 3px rgba(33, 32, 32, 0.3);
+    background-color: white;
+}
+
+.information {
+    margin: 37px;
+}
+
+.username {
+    width: 150px;
+    height: 30px;
+    margin: 0 0 13px 0;
+}
+
+.email-box {
+    width: 310px;
+    height: 30px;
+    margin: 0 0 13px 0;
+}
+
+.message-info {
+    font-size: 15px;
+}
+
+.suggestion {
+    width: 310px;
+    height: 90px;
+    margin: 0 0 13px 0;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    border: none;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgb(161, 103, 67);
+    color: white;
+    transition: background-color, 0.25s;
+}
+
+button:hover {
+    background-color: rgb(105, 65, 40);
+}
+
+button:active {
+    opacity: 0.50;
+}
+
+.service {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    justify-items:center;
+    align-items: center;
+}
+
+
+.title {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(168, 135, 97);
+}
